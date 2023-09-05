@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ranger_mini_gazebo/share/ranger_mini_gazebo/cmake/ranger_mini_gazeboConfig-version.cmake

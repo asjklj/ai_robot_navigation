@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_rctl_server/share/gennodejs/ros/ai_robot_rctl_server/msg/RctlMapMetaData.js

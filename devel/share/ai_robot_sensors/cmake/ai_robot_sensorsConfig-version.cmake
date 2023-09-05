@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_sensors/share/ai_robot_sensors/cmake/ai_robot_sensorsConfig-version.cmake

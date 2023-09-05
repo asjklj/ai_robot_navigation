@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ranger_mini_gazebo/lib/pkgconfig/ranger_mini_gazebo.pc

@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/rrt_exploration/share/roseus/ros/rrt_exploration/manifest.l

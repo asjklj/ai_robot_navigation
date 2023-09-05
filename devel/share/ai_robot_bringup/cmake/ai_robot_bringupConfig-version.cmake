@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_bringup/share/ai_robot_bringup/cmake/ai_robot_bringupConfig-version.cmake

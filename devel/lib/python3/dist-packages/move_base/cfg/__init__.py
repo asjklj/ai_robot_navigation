@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/move_base/lib/python3/dist-packages/move_base/cfg/__init__.py

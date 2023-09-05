@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/voxel_grid/share/voxel_grid/cmake/voxel_gridConfig-version.cmake

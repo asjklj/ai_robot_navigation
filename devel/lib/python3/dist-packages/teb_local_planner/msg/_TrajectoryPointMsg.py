@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/teb_local_planner/lib/python3/dist-packages/teb_local_planner/msg/_TrajectoryPointMsg.py

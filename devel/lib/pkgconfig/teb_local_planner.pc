@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/teb_local_planner/lib/pkgconfig/teb_local_planner.pc

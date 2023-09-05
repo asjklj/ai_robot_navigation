@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_interfaces/share/ai_robot_interfaces/cmake/ai_robot_interfaces-msg-paths.cmake

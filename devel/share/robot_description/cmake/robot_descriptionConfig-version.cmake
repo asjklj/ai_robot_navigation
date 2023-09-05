@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake

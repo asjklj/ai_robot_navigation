@@ -1,0 +1,62 @@
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:[m[K In member function ‘[01m[Kbool DroneObjectROS::setHover(int)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:114:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  114 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:[m[K In member function ‘[01m[Kbool DroneObjectROS::setTrajectory(int)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:144:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  144 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:[m[K In member function ‘[01m[Kbool DroneObjectROS::setPoint(float_t, float_t, float_t, float_t, float_t)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:129:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  129 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:[m[K In member function ‘[01m[Kbool DroneObjectROS::setAutoreturnRecord(bool)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:153:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  153 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:[m[K In member function ‘[01m[Kbool DroneObjectROS::setAutoreturnReturn(bool)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:163:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  163 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:[m[K In member function ‘[01m[Kbool DroneObjectROS::moveTo(float, float, float)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/drone_object_ros.cpp:218:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  218 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/postrajectory.cpp:[m[K In member function ‘[01m[Kshort int posTrajectory::interpolating(int, double, cv::Mat&)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/postrajectory.cpp:419:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  419 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/postrajectory.cpp:[m[K In member function ‘[01m[Kshort int posTrajectory::first_derivative(int, double, cv::Mat&)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/postrajectory.cpp:467:2:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  467 |  [01;35m[K}[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/postrajectory.cpp:[m[K In member function ‘[01m[Kshort int posTrajectory::second_derivative(int, double, cv::Mat&)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/postrajectory.cpp:515:2:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  515 |  [01;35m[K}[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/posControl.cpp:[m[K In member function ‘[01m[Kbool PosControl::setup()[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/posControl.cpp:179:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  179 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/include/move_base/AIBrain.h:8[m[K,
+                 from [01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/AIBrain.cpp:2[m[K:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/AIBrain.cpp:[m[K In member function ‘[01m[Kvoid AIBrain::doneCB(const actionlib::SimpleClientGoalState&, const MoveBaseResultConstPtr&)[m[K’:
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/AIBrain.cpp:231:14:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+  231 |     ROS_INFO([01;35m[K"Finished in state"[m[K, state.toString().c_str());
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/move_base/src/AIBrain.cpp:231:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  231 |     [01;36m[KROS_INFO[m[K("Finished in state", state.toString().c_str());
+      |     [01;36m[K^~~~~~~~[m[K

@@ -1,0 +1,19 @@
+Not searching for unused variables given on the command line.
+[31m[1mCMake Error[0m at /home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice_1/ai_robot_navigation/CMakeLists.txt:14 (find_package):
+  By not providing "FindPCL.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "PCL", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "PCL" with any of
+  the following names:
+
+    PCLConfig.cmake
+    pcl-config.cmake
+
+  Add the installation prefix of "PCL" to CMAKE_PREFIX_PATH or set "PCL_DIR"
+  to a directory containing one of the above files.  If "PCL" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/asjklj/ai_robot_ranger_mini/build/ai_robot_navigation/CMakeFiles/CMakeOutput.log".

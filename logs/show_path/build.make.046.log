@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target get_pose[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/get_pose.dir/src/get_pose.cpp.o[0m
+[ 75%] Built target showpath
+[100%] [32m[1mLinking CXX executable /home/asjklj/ai_robot_ranger_mini/devel/.private/show_path/lib/show_path/get_pose[0m
+[100%] Built target get_pose

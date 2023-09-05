@@ -1,0 +1,8 @@
+prefix=/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_navigation
+
+Name: ai_robot_navigation
+Description: Description of ai_robot_navigation
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

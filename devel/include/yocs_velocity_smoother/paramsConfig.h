@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/yocs_velocity_smoother/include/yocs_velocity_smoother/paramsConfig.h

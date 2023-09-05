@@ -1,0 +1,50 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/asjklj/ai_robot_ranger_mini/devel/.private/teb_local_planner
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/asjklj/ai_robot_ranger_mini/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/asjklj/ai_robot_ranger_mini/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /home/asjklj/anaconda3/bin/python3 (found suitable version "3.10.9", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /home/asjklj/anaconda3/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Found PY_em: /home/asjklj/anaconda3/lib/python3.10/site-packages/em.py
+[36m--[0m Using empy: /home/asjklj/anaconda3/lib/python3.10/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/asjklj/ai_robot_ranger_mini/build/teb_local_planner/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /home/asjklj/anaconda3/bin/python3 (found version "3.10.9")
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m System: Linux-5.15.0-78-generic
+[36m--[0m /opt/ros/noetic/share/cmake_modules/cmake/../../../share/cmake_modules/cmake/Modules;/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice/navigation/teb_local_planner/cmake_modules
+[36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread graph
+[36m--[0m Found SuiteSparse
+[36m--[0m Searching for g2o ...
+[36m--[0m Found g2o headers in: /opt/ros/noetic/include/g2o
+[36m--[0m Found libg2o: /opt/ros/noetic/lib/libg2o_csparse_extension.so;/opt/ros/noetic/lib/libg2o_core.so;/opt/ros/noetic/lib/libg2o_stuff.so;/opt/ros/noetic/lib/libg2o_types_slam2d.so;/opt/ros/noetic/lib/libg2o_types_slam3d.so;/opt/ros/noetic/lib/libg2o_solver_cholmod.so;/opt/ros/noetic/lib/libg2o_solver_pcg.so;/opt/ros/noetic/lib/libg2o_solver_csparse.so;/opt/ros/noetic/lib/libg2o_incremental.so
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX11
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX11 - Success
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX0X
+[36m--[0m Performing Test COMPILER_SUPPORTS_CXX0X - Success
+[36m--[0m teb_local_planner: 3 messages, 0 services
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/asjklj/ai_robot_ranger_mini/build/teb_local_planner

@@ -1,0 +1,8 @@
+prefix=/home/asjklj/ai_robot_ranger_mini/devel/.private/show_path
+
+Name: show_path
+Description: Description of show_path
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

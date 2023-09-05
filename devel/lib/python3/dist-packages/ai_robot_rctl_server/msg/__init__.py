@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_rctl_server/lib/python3/dist-packages/ai_robot_rctl_server/msg/__init__.py

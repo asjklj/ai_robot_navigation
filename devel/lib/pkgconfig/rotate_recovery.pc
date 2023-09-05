@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/rotate_recovery/lib/pkgconfig/rotate_recovery.pc

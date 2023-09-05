@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/asjklj/ai_robot_ranger_mini/build/rrt_exploration_tutorials/gtest/lib ../lib/libgmock.so ../lib/libgtest.so -lpthread 

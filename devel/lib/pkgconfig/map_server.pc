@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/map_server/lib/pkgconfig/map_server.pc

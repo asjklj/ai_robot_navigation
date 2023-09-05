@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/show_path/lib/pkgconfig/show_path.pc

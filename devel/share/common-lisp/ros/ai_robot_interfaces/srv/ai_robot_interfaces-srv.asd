@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_interfaces/share/common-lisp/ros/ai_robot_interfaces/srv/ai_robot_interfaces-srv.asd

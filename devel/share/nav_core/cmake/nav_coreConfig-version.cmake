@@ -1,0 +1,1 @@
+/home/asjklj/ai_robot_ranger_mini/devel/.private/nav_core/share/nav_core/cmake/nav_coreConfig-version.cmake

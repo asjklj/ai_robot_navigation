@@ -1,0 +1,8 @@
+prefix=/home/asjklj/ai_robot_ranger_mini/devel/.private/ranger_mini_gazebo
+
+Name: ranger_mini_gazebo
+Description: Description of ranger_mini_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
