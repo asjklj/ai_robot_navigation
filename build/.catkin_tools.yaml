@@ -1,0 +1,6 @@
+devel_space: /home/asjklj/ai_robot_ranger_mini/devel
+install: false
+install_space: /home/asjklj/ai_robot_ranger_mini/install
+profile: default
+source_space: /home/asjklj/ai_robot_ranger_mini/src
+workspace: /home/asjklj/ai_robot_ranger_mini

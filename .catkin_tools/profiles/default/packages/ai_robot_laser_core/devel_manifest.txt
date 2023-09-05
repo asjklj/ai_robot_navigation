@@ -1,0 +1,2 @@
+ai_robot_practice_1/ai_robot_laser_core
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_laser_core/cmake.lock /home/asjklj/ai_robot_ranger_mini/devel/./cmake.lock

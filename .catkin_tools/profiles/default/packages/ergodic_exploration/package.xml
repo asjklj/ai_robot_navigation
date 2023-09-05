@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ergodic_exploration</name>
+  <version>1.0.0</version>
+  <description> Robot agnostic information theoretic exploration strategy </description>
+  <author email="bostoncleek2020@u.northwestern.edu">bostoncleek</author>
+  <maintainer email="bostoncleek2020@u.northwestern.edu">bostoncleek</maintainer>
+  <license>BSD-3</license>
+
+  <depend>armadillo</depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
+  <test_depend>rosunit</test_depend>
+
+</package>

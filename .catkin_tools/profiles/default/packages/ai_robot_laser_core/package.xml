@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ai_robot_laser_core</name>
+  <version>0.1.0</version>
+  <description>The core metapackage for BATC laser-based robot.</description>
+  <author email="gongzheng@sjtu.edu.cn">Gong Zheng</author>
+  <maintainer email="gongzheng@sjtu.edu.cn">Gong Zheng</maintainer>
+  <maintainer email="mrhcat@sjtu.edu.cn">Miao Ruihang</maintainer>
+  <maintainer email="icecreamxwy@sjtu.edu.cn">Xue Wuyang</maintainer>
+  <maintainer email="xmj@sjtu.edu.cn">Xu Minjie</maintainer>
+  <license>TODO</license>
+  <url type="website">https://bat.sjtu.edu.cn</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>ai_robot_navigation</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

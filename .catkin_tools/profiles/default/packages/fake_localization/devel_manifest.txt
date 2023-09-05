@@ -1,0 +1,6 @@
+ai_robot_practice/navigation/fake_localization
+/home/asjklj/ai_robot_ranger_mini/devel/.private/fake_localization/cmake.lock /home/asjklj/ai_robot_ranger_mini/devel/./cmake.lock
+/home/asjklj/ai_robot_ranger_mini/devel/.private/fake_localization/lib/pkgconfig/fake_localization.pc /home/asjklj/ai_robot_ranger_mini/devel/lib/pkgconfig/fake_localization.pc
+/home/asjklj/ai_robot_ranger_mini/devel/.private/fake_localization/lib/fake_localization/fake_localization /home/asjklj/ai_robot_ranger_mini/devel/lib/fake_localization/fake_localization
+/home/asjklj/ai_robot_ranger_mini/devel/.private/fake_localization/share/fake_localization/cmake/fake_localizationConfig-version.cmake /home/asjklj/ai_robot_ranger_mini/devel/share/fake_localization/cmake/fake_localizationConfig-version.cmake
+/home/asjklj/ai_robot_ranger_mini/devel/.private/fake_localization/share/fake_localization/cmake/fake_localizationConfig.cmake /home/asjklj/ai_robot_ranger_mini/devel/share/fake_localization/cmake/fake_localizationConfig.cmake

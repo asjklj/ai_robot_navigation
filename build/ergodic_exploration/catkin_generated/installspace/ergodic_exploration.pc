@@ -1,0 +1,8 @@
+prefix=/home/asjklj/ai_robot_ranger_mini/install
+
+Name: ergodic_exploration
+Description: Description of ergodic_exploration
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lergodic_exploration
+Requires: roscpp

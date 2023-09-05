@@ -1,0 +1,8 @@
+prefix=/home/asjklj/ai_robot_ranger_mini/install
+
+Name: ai_robot_rctl_server
+Description: Description of ai_robot_rctl_server
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+Requires: message_runtime nav_msgs std_msgs roscpp

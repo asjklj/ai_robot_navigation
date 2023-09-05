@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ai_robot_localization</name>
+  <version>0.1.0</version>
+  <description>The ai_robot locolization package.</description>
+  <author email="gongzheng@sjtu.edu.cn">Gong Zheng</author>
+  <maintainer email="gongzheng@sjtu.edu.cn">Gong Zheng</maintainer>
+  <maintainer email="xmj@sjtu.edu.cn">Xu Minjie</maintainer>
+  <license>TODO</license>
+  <url type="website">https://bat.sjtu.edu.cn</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>cartographer_ros</depend>
+</package>

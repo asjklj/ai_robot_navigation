@@ -1,0 +1,5 @@
+ai_robot_practice_1/ai_robot_sensors
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_sensors/cmake.lock /home/asjklj/ai_robot_ranger_mini/devel/./cmake.lock
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_sensors/lib/pkgconfig/ai_robot_sensors.pc /home/asjklj/ai_robot_ranger_mini/devel/lib/pkgconfig/ai_robot_sensors.pc
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_sensors/share/ai_robot_sensors/cmake/ai_robot_sensorsConfig-version.cmake /home/asjklj/ai_robot_ranger_mini/devel/share/ai_robot_sensors/cmake/ai_robot_sensorsConfig-version.cmake
+/home/asjklj/ai_robot_ranger_mini/devel/.private/ai_robot_sensors/share/ai_robot_sensors/cmake/ai_robot_sensorsConfig.cmake /home/asjklj/ai_robot_ranger_mini/devel/share/ai_robot_sensors/cmake/ai_robot_sensorsConfig.cmake

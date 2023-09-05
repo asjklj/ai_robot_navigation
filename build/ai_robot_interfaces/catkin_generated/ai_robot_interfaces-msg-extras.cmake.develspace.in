@@ -1,0 +1,2 @@
+set(ai_robot_interfaces_MESSAGE_FILES "/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice_1/ai_robot_interfaces/msg/MpTraj.msg;/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice_1/ai_robot_interfaces/msg/TopoMetric.msg")
+set(ai_robot_interfaces_SERVICE_FILES "/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice_1/ai_robot_interfaces/srv/restart_nav.srv;/home/asjklj/ai_robot_ranger_mini/src/ai_robot_practice_1/ai_robot_interfaces/srv/set_destination.srv")

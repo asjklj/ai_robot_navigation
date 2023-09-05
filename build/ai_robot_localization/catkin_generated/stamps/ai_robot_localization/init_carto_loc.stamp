@@ -1,0 +1,100 @@
+#!/usr/bin/env python
+from __future__ import division, print_function, unicode_literals
+
+import math
+import os
+import os.path as path
+import subprocess as sp
+import sys
+
+from geometry_msgs.msg import PoseStamped
+import rospy
+
+exit_flag = False
+
+# Pose input for the final point of trajectory in cartographer
+final_x = 0.0
+final_y = 0.0
+final_z = 0.0
+final_qw = 0.1
+final_qx = 0.0
+final_qy = 0.0
+final_qz = 0.0
+final_yaw = math.atan2(
+    2 * (final_qw * final_qz + final_qx * final_qy),
+    1 - 2 * (final_qy * final_qy + final_qz * final_qz),
+)
+
+carto_config_filepath = path.abspath(
+    path.join(path.dirname(path.abspath(__file__)), os.pardir, "carto_configs")
+)
+
+init_pose_fmtstr = (
+    "'{{to_trajectory_id = 0, "
+    "relative_pose = {{ translation = {{ {}, {}, {} }}, "
+    "rotation = {{ {}, {}, {} }} }} }}'"
+)
+
+
+def callback(msg):
+    global exit_flag, final_x, final_y, final_qw, final_qz, final_yaw
+    # map frame
+    x = msg.pose.position.x
+    y = msg.pose.position.y
+    qx = msg.pose.orientation.x
+    qy = msg.pose.orientation.y
+    qz = msg.pose.orientation.z
+    qw = msg.pose.orientation.w
+    # final pose frame
+    yaw = math.atan2(2 * (qw * qz + qx * qy), 1 - 2 * (qy * qy + qz * qz))
+    yaw = yaw - final_yaw
+    fx = (x - final_x) * math.cos(final_yaw) + (y - final_y) * math.sin(final_yaw)
+    fy = (x - final_x) * math.sin(-final_yaw) + (y - final_y) * math.cos(final_yaw)
+
+    try:
+        sp.check_output(
+            [
+                "rosrun",
+                "cartographer_ros",
+                "cartographer_start_trajectory",
+                "-configuration_directory",
+                "'" + carto_config_filepath + "'",
+                "-configuration_basename",
+                "'carto_loc_huawei.lua'",
+                "-initial_pos",
+                init_pose_fmtstr.format(fx, fy, 0, 0, 0, yaw),
+            ]
+        )
+    except sp.CalledProcessError as e:
+        print("rosrun error", e.returncode, e.output, file=sys.stderr)
+    else:
+        exit_flag = True
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        with open(sys.argv[1], "r") as f:
+            line = f.readline()
+            fields = line.split(",")
+            final_x = float(fields[0])
+            final_y = float(fields[1])
+            final_qw = float(fields[3])
+            final_qz = float(fields[6])
+            final_yaw = math.atan2(
+                2 * (final_qw * final_qz + final_qx * final_qy),
+                1 - 2 * (final_qy * final_qy + final_qz * final_qz),
+            )
+
+    rospy.init_node("init_cartoloc", anonymous=True)
+    rospy.Subscriber("/move_base_simple/goal", PoseStamped, callback)
+    rate = rospy.Rate(30)
+
+    rospy.loginfo(
+        "Please be sure that the brain_node is not running"
+        " and use '2D Nav Goal' button to set init pose for localization."
+    )
+
+    while not rospy.is_shutdown() and not exit_flag:
+        rate.sleep()
+
+    rospy.loginfo("Setting init pose done!")

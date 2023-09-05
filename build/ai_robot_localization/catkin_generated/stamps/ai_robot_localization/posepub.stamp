@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+from __future__ import division, print_function, unicode_literals
+
+from geometry_msgs.msg import PoseStamped
+import rospy
+from tf import ExtrapolationException, LookupException, TransformListener
+
+
+def main():
+    rospy.init_node("cartopub", anonymous=True)
+    pub = rospy.Publisher("/slam/pose", PoseStamped, queue_size=10)
+    tf_listener = TransformListener()
+    pose_msg = PoseStamped()
+    rate = rospy.Rate(30)
+
+    # For quick access to message members
+    msg_header = pose_msg.header
+    msg_pos = pose_msg.pose.position
+    msg_ori = pose_msg.pose.orientation
+
+    while not rospy.is_shutdown():
+        if tf_listener.frameExists("base_link"):
+            try:
+                t = tf_listener.getLatestCommonTime("base_link", "map")
+                pos, quat = tf_listener.lookupTransform("map", "base_link", t)
+                print("----------{}----------".format(pos))
+            except (LookupException, ExtrapolationException):
+                pass
+            else:
+                msg_header.stamp = rospy.Time.now()
+                msg_pos.x, msg_pos.y, msg_pos.z = pos
+                msg_ori.x, msg_ori.y, msg_ori.z, msg_ori.w = quat
+                pub.publish(pose_msg)
+            rate.sleep()
+
+
+if __name__ == "__main__":
+    main()

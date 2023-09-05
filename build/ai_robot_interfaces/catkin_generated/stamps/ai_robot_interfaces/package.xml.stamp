@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ai_robot_interfaces</name>
+  <version>0.1.0</version>
+  <description>The package for ai_robot message/service/action definitions.</description>
+  <author email="icecreamxwy@sjtu.edu.cn">Xue Wuyang</author>
+  <maintainer email="xmj@sjtu.edu.cn">Xu Minjie</maintainer>
+  <license>TODO</license>
+  <url type="website">https://bat.sjtu.edu.cn</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>message_runtime</exec_depend>
+  <export></export>
+</package>
